@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: #081b31;
+  color: #fff;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 2.5rem; /* Increased font size */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+}
+
+.choice {
+  height: 180px; /* Increased size */
+  width: 180px; /* Increased size */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease; /* Added transition */
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #061428; /* Darker shade for hover */
+}
+
+img {
+  height: 165px; /* Increased size */
+  width: 165px; /* Increased size */
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem; /* Increased gap */
+  margin-top: 6rem; /* Increased margin-top */
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem; /* Increased font size */
+  margin-top: 4rem; /* Increased margin-top */
+  gap: 6rem; /* Increased gap */
+}
+
+#user-score,
+#comp-score {
+  font-size: 4.5rem; /* Increased font size */
+}
+
+.msg-container {
+  margin-top: 6rem; /* Increased margin-top */
+}
+
+#msg {
+  background-color: #081b31;
+  color: #fff;
+  font-size: 2.5rem; /* Increased font size */
+  display: inline;
+  padding: 1.5rem; /* Increased padding */
+  border-radius: 1.5rem; /* Increased border-radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow */
+}
